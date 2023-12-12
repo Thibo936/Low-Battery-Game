@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://projet sprite/tiles/robot_marche2.png" type="Texture" id=1]
+
+[node name="mort" type="Node2D"]
+position = Vector2( 4, 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 157, 118.75 )
+scale = Vector2( 6.17647, 3.23469 )
+texture = ExtResource( 1 )
